@@ -22,19 +22,20 @@
 
 
             <div class="col-md-4 ">
-                <div class="mb-3 text-black text-center">
-                    <label for="exampleFormControlTextarea1" class="form-label fw-bold ">Insert your text!</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+                <form action="../php/sendModules.php" method="GET">
+                    <div class="mb-3 text-black text-center">
+                        <label for="exampleFormControlTextarea1" class="form-label fw-bold ">Insert your text!</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  name="message"></textarea>
+                    </div>
 
-                <button type="submit" class="my-btn " name="message">SHOW BAD WORDS!!</button>
-
-
-
+                    <button type="submit" class="my-btn ">SHOW BAD WORDS!!</button>
 
 
 
 
+
+
+                </form>
 
 
             </div>
